@@ -1,0 +1,279 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: gold;
+}
+
+.container{
+    text-align: center;
+}
+
+.top{
+    padding :30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.bal-con{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: larger;
+}
+
+#bal{
+    padding: 20px;
+    font-weight: lighter;
+}
+
+.in-ex{
+    border: 2px solid gold;
+    box-shadow:20px;
+    display: grid;
+    /* grid-template-rows: repeat(2,15vh); */
+    grid-template-columns: repeat(2,20vh);
+    padding: 20px;
+    margin: 0vh 65vh;
+    justify-content: center;
+}
+
+.in-text{
+    padding-bottom: 20px;
+    font-size: larger;
+    font-weight: bolder;
+}
+.ex-text{
+    padding-bottom: 20px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#in{
+    color: greenyellow;
+    font-size: larger;
+    font-weight: lighter;
+}
+
+#ex{
+    color: red;
+    font-size: larger;
+    font-weight: lighter;
+}
+
+h3{
+    padding: 10px 0px;
+}
+
+.history-item{
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    border: 1px solid gold;
+    /* margin: 0px 75vh; */
+    margin: 0px 30vh;
+    padding: 15px 10px;
+}
+
+.title{
+    /* margin-right: 210px; */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.in-amt{
+    padding-right: 30px;
+}
+
+.ex-amt{
+    padding-right: 30px;
+}
+
+.show-container{
+    visibility: visible;
+}
+
+/* .title-amt{
+    background-color: white;
+} */
+
+.delete-btn{
+    background:none;
+    color: red;
+}
+
+.delete-btn:hover{
+    color: gold;
+}
+
+.clear-btn{
+    background-color: gold;
+    margin-top: 10px;
+    padding: 5px 15px;
+    font-weight: lighter;
+    font-size: medium;
+    border-radius: 15px;
+}
+
+.history-con{
+    padding-top: 30px;
+}
+
+.new-trans{
+    padding-top: 30px;
+}
+
+input{
+    padding: 3px 6px;
+    border-radius: 10px;
+    /* background-color: gold; */
+    background-color: lightgoldenrodyellow;
+}
+
+label{
+    padding-right: 20px;
+    font-size: larger;
+    font-weight: 300;
+}
+
+#name{
+    margin-right: 0px;
+}
+
+#amount{
+    margin-right: 14px;
+}
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+#in-btn{
+    padding:10px 35px;
+    background-color: greenyellow;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: medium;
+    font-weight: 500;
+}
+
+#ex-btn{
+    padding:10px 30px;   
+    background-color: red; 
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: medium;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1200px) {
+    .in-ex{
+        border: 2px solid gold;
+        display: grid;
+        /* grid-template-rows: repeat(2,15vh); */
+        grid-template-columns: repeat(2,20vh);
+        padding: 20px;
+        margin: 0vh 55vh;
+        justify-content: center;
+    }    
+}
+
+@media screen and (max-width: 1070px) {
+    .in-ex{
+        border: 2px solid gold;
+        display: grid;
+        /* grid-template-rows: repeat(2,15vh); */
+        grid-template-columns: repeat(2,20vh);
+        padding: 20px;
+        margin: 0vh 45vh;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .in-ex{
+        border: 2px solid gold;
+        display: grid;
+        /* grid-template-rows: repeat(2,15vh); */
+        grid-template-columns: repeat(2,20vh);
+        padding: 20px;
+        margin: 0vh 35vh;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .in-ex{
+        border: 2px solid gold;
+        display: grid;
+        /* grid-template-rows: repeat(2,15vh); */
+        grid-template-columns: repeat(2,20vh);
+        padding: 20px;
+        margin: 0vh 25vh;
+        justify-content: center;
+    }
+    
+    .history-item{
+        display: flex;
+        flex-direction: row;
+        border-radius: 5px;
+        border: 1px solid gold;
+        /* margin: 0px 75vh; */
+        margin: 0px 10vh;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .in-ex{
+        border: 2px solid gold;
+        display: grid;
+        /* grid-template-rows: repeat(2,15vh); */
+        grid-template-columns: repeat(2,20vh);
+        padding: 20px;
+        margin: 0vh 15vh;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .in-ex{
+        border: 2px solid gold;
+        display: grid;
+        /* grid-template-rows: repeat(2,15vh); */
+        grid-template-columns: repeat(2,20vh);
+        padding: 20px;
+        margin: 0vh 5vh;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .in-ex{
+        border: 2px solid gold;
+        display: grid;
+        /* grid-template-rows: repeat(2,15vh); */
+        grid-template-columns: repeat(2,20vh);
+        padding: 20px;
+        margin: 0vh 5vh;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
